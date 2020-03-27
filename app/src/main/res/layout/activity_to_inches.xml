@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g4"
+    android:layout_gravity="center"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".toInches">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:fontFamily="cursive"
+        android:text="Convert cm to inch"
+        android:textColor="#D51414"
+        android:textSize="42sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="cm"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <Button
+        android:id="@+id/con1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="@drawable/g3"
+        android:text="Convert"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <TextView
+        android:id="@+id/res1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:fontFamily="casual"
+        android:hint="Result"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+</LinearLayout>

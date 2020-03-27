@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".kgToLb">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:fontFamily="cursive"
+        android:includeFontPadding="true"
+        android:text="Convert kg to lbs"
+        android:textColor="#D51414"
+        android:textSize="46sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="kg"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/con1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="@drawable/g3"
+        android:text="convert"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <TextView
+        android:id="@+id/res1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:fontFamily="casual"
+        android:hint="RESULT"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+</LinearLayout>
